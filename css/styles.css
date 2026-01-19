@@ -606,12 +606,34 @@ img {
     margin-bottom: var(--space-8);
 }
 
-.brands__grid {
+/* Brands Carousel */
+.brands__slider {
+    overflow: hidden;
+    width: 100%;
+    padding: var(--space-4) 0;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.brands__track {
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: var(--space-8);
-    flex-wrap: wrap;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+}
+
+.brands__track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 .brands__item {
@@ -624,6 +646,8 @@ img {
     border-radius: var(--radius-lg);
     transition: all var(--transition-base);
     border: 1px solid transparent;
+    flex-shrink: 0;
+    /* Prevent shrinking in flex container */
 }
 
 .brands__item:hover {
