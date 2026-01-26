@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="ENERGY ANG - Somos especialistas en acumuladores automotrices para todo tipo de vehículo. Baterías LTH y Gonher con instalación gratuita y envío express en CDMX.">
+    <meta name="keywords"
+        content="baterías automotrices, acumuladores CDMX, baterías LTH, baterías Gonher, cambio de batería, diagnóstico de batería, baterías para auto, baterías para moto, instalación de batería gratis">
+    <meta name="author" content="ENERGY ANG">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ENERGY ANG - Especialistas en Baterías Automotrices">
+    <meta property="og:description"
+        content="Somos especialistas en acumuladores automotrices para todo tipo de vehículo. Marcas LTH y Gonher con instalación gratuita.">
+    <meta property="og:image" content="assets/images/logo.png">
+
+    <title>ENERGY ANG | Especialistas en Baterías y Acumuladores Automotrices | CDMX</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- ========================================
+       Header & Navigation
+       ======================================== -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="header__logo">
+                    <img src="assets/images/logo.jpg" alt="ENERGY ANG Logo">
+                </a>
+
+                <nav class="nav">
+                    <ul class="nav__list" id="navList">
+                        <li><a href="#inicio" class="nav__link active">Inicio</a></li>
+                        <li><a href="#productos" class="nav__link">Productos</a></li>
+                        <li><a href="#servicios" class="nav__link">Servicios</a></li>
+                        <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+                        <li><a href="#blog" class="nav__link">Blog</a></li>
+                        <li><a href="#contacto" class="nav__link">Contacto</a></li>
+                    </ul>
+
+                    <div class="header__actions">
+                        <a href="tel:+525512345678" class="header__phone">
+                            <svg class="header__phone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+                            </svg>
+                            <span>55 1234 5678</span>
+                        </a>
+                        <a href="#contacto" class="btn btn--secondary">Cotizar</a>
+                    </div>
+
+                    <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========================================
+       Hero Section
+       ======================================== -->
+    <section class="hero" id="inicio">
+        <div class="hero__shapes">
+            <div class="hero__shape hero__shape--1"></div>
+            <div class="hero__shape hero__shape--2"></div>
+            <div class="hero__shape hero__shape--3"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero__grid">
+                <div class="hero__content">
+                    <div class="hero__badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                        Especialistas en Baterías Automotrices
+                    </div>
+
+                    <h1 class="hero__title">
+                        Potencia que impulsa
+                        <span>tu camino</span>
+                    </h1>
+
+                    <p class="hero__description">
+                        Somos especialistas en acumuladores automotrices para todo tipo de vehículo. Baterías de las
+                        mejores
+                        marcas con instalación gratuita y envío express en CDMX.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a href="#productos" class="btn btn--secondary btn--lg">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                                <line x1="3" y1="9" x2="21" y2="9" />
+                                <line x1="9" y1="21" x2="9" y2="9" />
+                            </svg>
+                            Ver Productos
+                        </a>
+                        <a href="https://wa.me/525512345678?text=Hola,%20me%20interesa%20información%20sobre%20baterías"
+                            class="btn btn--white btn--lg" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                            WhatsApp
+                        </a>
+                    </div>
+
+                    <div class="hero__stats">
+                        <div class="hero__stat">
+                            <span class="hero__stat-value">10,000+</span>
+                            <span class="hero__stat-label">Clientes Satisfechos</span>
+                        </div>
+                        <div class="hero__stat">
+                            <span class="hero__stat-value">500+</span>
+                            <span class="hero__stat-label">Empresas</span>
+                        </div>
+                        <div class="hero__stat">
+                            <span class="hero__stat-value">15+</span>
+                            <span class="hero__stat-label">Años de Experiencia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__image">
+                    <img src="assets/images/hero-main.png" alt="Baterías ENERGY ANG">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       Brands Section
+       ======================================== -->
+    <section class="brands">
+        <div class="container">
+            <p class="brands__title">Marcas que distribuimos</p>
+            <div class="brands__slider">
+                <div class="brands__track">
+                    <!-- Original Set -->
+                    <div class="brands__item">
+                        <span class="brands__text-logo">LTH</span>
+                    </div>
+                    <div class="brands__item">
+                        <span class="brands__text-logo">Gonher</span>
+                    </div>
+                    <div class="brands__item">
+                        <span class="brands__text-logo">América</span>
+                    </div>
+                    <div class="brands__item">
+                        <span class="brands__text-logo">Optima</span>
+                    </div>
+                    <div class="brands__item">
+                        <span class="brands__text-logo">Full Power</span>
+                    </div>
+                    <div class="brands__item">
+                        <span class="brands__text-logo">Cronos</span>
+                    </div>
+
+                    <!-- Duplicate Set for Infinite Loop -->
+                    <div class="brands__item">
+                        <span class="brands__text-logo">LTH</span>
+                    </div>
+                    <div class="brands__item">
+                        <span class="brands__text-logo">Gonher</span>
+                    </div>
+                    <div class="brands__item">
+                        <span class="brands__text-logo">América</span>
+                    </div>
+                    <div class="brands__item">
+                        <span class="brands__text-logo">Optima</span>
+                    </div>
+                    <div class="brands__item">
+                        <span class="brands__text-logo">Full Power</span>
+                    </div>
+                    <div class="brands__item">
+                        <span class="brands__text-logo">Cronos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       Categories Section
+       ======================================== -->
+    <section class="categories" id="productos">
+        <div class="container">
+            <div class="categories__header animate-on-scroll">
+                <span class="categories__subtitle">Nuestros Productos</span>
+                <h2 class="categories__title">Baterías para Todo Tipo de Vehículo</h2>
+                <p class="categories__description">
+                    Encuentra la batería perfecta para tu vehículo. Contamos con opciones para autos, motos y vehículos
+                    de carga.
+                </p>
+            </div>
+
+            <div class="categories__grid">
+                <!-- Category: Autos -->
+                <div class="category-card animate-on-scroll delay-100">
+                    <div class="category-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+                            <circle cx="7" cy="17" r="2" />
+                            <circle cx="17" cy="17" r="2" />
+                            <path d="M14 17h-4" />
+                        </svg>
+                    </div>
+                    <h3 class="category-card__title">Baterías para Autos</h3>
+                    <p class="category-card__description">
+                        Amplia variedad de baterías para automóviles particulares de todas las marcas y modelos.
+                    </p>
+                    <a href="#contacto" class="category-card__link">
+                        Ver productos
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Category: Motos -->
+                <div class="category-card animate-on-scroll delay-200">
+                    <div class="category-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 16c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3z" />
+                            <path d="M16 16c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3z" />
+                            <path d="M12 6l-2-3H6l-2 3" />
+                            <path d="M8 12h4" />
+                            <path d="M11 13a4 4 0 0 0 2-2.5V8" />
+                            <path d="M16 8h2.5l2 3" />
+                            <path d="M18.5 13l-1.5-5" />
+                            <path d="M8 13v-3l2-3" />
+                        </svg>
+                    </div>
+                    <h3 class="category-card__title">Baterías para Motos</h3>
+                    <p class="category-card__description">
+                        Baterías de alto rendimiento para motocicletas de todo tipo y cilindrada.
+                    </p>
+                    <a href="#contacto" class="category-card__link">
+                        Ver productos
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Category: Vehículos de Carga -->
+                <div class="category-card animate-on-scroll delay-300">
+                    <div class="category-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="1" y="3" width="15" height="13" />
+                            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+                            <circle cx="5.5" cy="18.5" r="2.5" />
+                            <circle cx="18.5" cy="18.5" r="2.5" />
+                        </svg>
+                    </div>
+                    <h3 class="category-card__title">Vehículos de Carga</h3>
+                    <p class="category-card__description">
+                        Baterías de alta capacidad para camiones y vehículos de carga pesada.
+                    </p>
+                    <a href="#contacto" class="category-card__link">
+                        Ver productos
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       Services Section
+       ======================================== -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <div class="services__header animate-on-scroll">
+                <span class="services__subtitle">Servicios Profesionales</span>
+                <h2 class="services__title">Te Acompañamos Antes, Durante y Después</h2>
+                <p class="services__description">
+                    Contamos con servicios profesionales para garantizar tu satisfacción en cada paso de tu compra.
+                </p>
+            </div>
+
+            <div class="services__grid">
+                <!-- Service 1 -->
+                <div class="service-card animate-on-scroll delay-100">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#FF6B00" stroke-width="2">
+                            <path
+                                d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Instalación Gratuita</h3>
+                    <p class="service-card__description">
+                        Disfruta instalación gratuita de tu batería en tienda o a domicilio, sin costo extra.
+                    </p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card animate-on-scroll delay-200">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#FF6B00" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            <path d="M9 12l2 2 4-4" />
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Diagnóstico Profesional</h3>
+                    <p class="service-card__description">
+                        Revisamos tu batería y sistema eléctrico para garantizar el arranque y rendimiento de tu auto.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card animate-on-scroll delay-300">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#FF6B00" stroke-width="2">
+                            <rect x="1" y="6" width="22" height="12" rx="2" ry="2" />
+                            <path d="M13 10l3 2-3 2" />
+                            <line x1="8" y1="12" x2="16" y2="12" />
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Envío Express</h3>
+                    <p class="service-card__description">
+                        Recibe tu batería en horas con nuestro servicio de envío express en CDMX y zonas cercanas.
+                    </p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card animate-on-scroll delay-400">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#FF6B00" stroke-width="2">
+                            <path
+                                d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z" />
+                            <path d="M7.5 4.21l4.5 2.6 4.5-2.6" />
+                            <path d="M7.5 19.79V14.6L3 12" />
+                            <path d="M21 12l-4.5 2.6v5.19" />
+                            <path d="M3.27 6.96L12 12.01l8.73-5.05" />
+                            <line x1="12" y1="22.08" x2="12" y2="12" />
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Reciclaje con Descuento</h3>
+                    <p class="service-card__description">
+                        Entrega tu batería usada para reciclaje y obtén un descuento adicional en tu compra.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       About Section
+       ======================================== -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__image animate-on-scroll">
+                    <img src="assets/images/technician.png" alt="Técnico profesional de ENERGY ANG">
+                </div>
+
+                <div class="about__content animate-on-scroll delay-200">
+                    <span class="about__subtitle">¿Por Qué Elegirnos?</span>
+                    <h2 class="about__title">Especialistas en Baterías Automotrices</h2>
+                    <p class="about__description">
+                        En ENERGY ANG somos expertos en baterías y acumuladores automotrices. Ofrecemos productos de
+                        marcas reconocidas como LTH y Gonher, junto con servicios profesionales de instalación,
+                        diagnóstico y envío express.
+                    </p>
+
+                    <div class="about__features">
+                        <div class="about__feature">
+                            <div class="about__feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                                    <path d="M22 4L12 14.01l-3-3" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="about__feature-title">Marcas Reconocidas</h4>
+                                <p class="about__feature-text">LTH y Gonher con garantía oficial</p>
+                            </div>
+                        </div>
+
+                        <div class="about__feature">
+                            <div class="about__feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="about__feature-title">Entrega Rápida</h4>
+                                <p class="about__feature-text">Envío express el mismo día en CDMX</p>
+                            </div>
+                        </div>
+
+                        <div class="about__feature">
+                            <div class="about__feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z" />
+                                    <path d="M19 10v2a7 7 0 01-14 0v-2" />
+                                    <line x1="12" y1="19" x2="12" y2="23" />
+                                    <line x1="8" y1="23" x2="16" y2="23" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="about__feature-title">Asesoría Técnica</h4>
+                                <p class="about__feature-text">Te ayudamos a elegir la mejor opción</p>
+                            </div>
+                        </div>
+
+                        <div class="about__feature">
+                            <div class="about__feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="about__feature-title">Servicio a Domicilio</h4>
+                                <p class="about__feature-text">Instalación donde tú estés</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#contacto" class="btn btn--primary btn--lg">Contáctanos Ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       Stats Section
+       ======================================== -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats__grid">
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-item__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 00-3-3.87" />
+                            <path d="M16 3.13a4 4 0 010 7.75" />
+                        </svg>
+                    </div>
+                    <span class="stat-item__value">10,000+</span>
+                    <span class="stat-item__label">Clientes Atendidos</span>
+                </div>
+
+                <div class="stat-item animate-on-scroll delay-100">
+                    <div class="stat-item__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                            <path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16" />
+                        </svg>
+                    </div>
+                    <span class="stat-item__value">500+</span>
+                    <span class="stat-item__label">Empresas Confían</span>
+                </div>
+
+                <div class="stat-item animate-on-scroll delay-200">
+                    <div class="stat-item__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                        </svg>
+                    </div>
+                    <span class="stat-item__value">15+</span>
+                    <span class="stat-item__label">Años de Experiencia</span>
+                </div>
+
+                <div class="stat-item animate-on-scroll delay-300">
+                    <div class="stat-item__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon
+                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                        </svg>
+                    </div>
+                    <span class="stat-item__value">4.9</span>
+                    <span class="stat-item__label">Calificación Promedio</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       CTA Section - Express Delivery
+       ======================================== -->
+    <section class="cta">
+        <div class="cta__bg">
+            <img src="assets/images/express-delivery.png" alt="Envío express ENERGY ANG">
+        </div>
+        <div class="container">
+            <div class="cta__content animate-on-scroll">
+                <h2 class="cta__title">
+                    ¿Batería descargada? <span>Te la llevamos hoy</span>
+                </h2>
+                <p class="cta__description">
+                    Con nuestro servicio de envío express, recibe tu batería en horas. Instalación incluida sin costo
+                    adicional en CDMX y zona metropolitana.
+                </p>
+                <div class="cta__actions">
+                    <a href="https://wa.me/525512345678?text=Hola,%20necesito%20una%20batería%20urgente"
+                        class="btn btn--secondary btn--lg" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        Pedir por WhatsApp
+                    </a>
+                    <a href="tel:+525512345678" class="btn btn--outline btn--lg"
+                        style="border-color: white; color: white;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+                        </svg>
+                        Llamar Ahora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       FAQ Section
+       ======================================== -->
+    <section class="faq" id="preguntas">
+        <div class="container">
+            <div class="faq__header animate-on-scroll">
+                <span class="faq__subtitle">Preguntas Frecuentes</span>
+                <h2 class="faq__title">¿Tienes Dudas?</h2>
+            </div>
+
+            <div class="faq__grid">
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-item__question">
+                        ¿Cuánto dura una batería automotriz?
+                        <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>Una batería automotriz típica dura entre 3 y 5 años, dependiendo del uso, clima y
+                            mantenimiento. Te recomendamos realizar diagnósticos preventivos cada 6 meses para prolongar
+                            su vida útil.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item animate-on-scroll delay-100">
+                    <button class="faq-item__question">
+                        ¿Cómo sé qué batería necesita mi auto?
+                        <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>Contáctanos por WhatsApp o teléfono con la marca, modelo y año de tu vehículo. Nuestros
+                            asesores te recomendarán la batería ideal según las especificaciones de tu auto.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item animate-on-scroll delay-200">
+                    <button class="faq-item__question">
+                        ¿Incluyen instalación de la batería?
+                        <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>¡Sí! La instalación es completamente gratuita tanto en nuestra tienda como a domicilio en
+                            CDMX y zona metropolitana. Nuestros técnicos están capacitados para instalaciones
+                            profesionales.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item animate-on-scroll delay-300">
+                    <button class="faq-item__question">
+                        ¿Qué garantía tienen las baterías?
+                        <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>Todas nuestras baterías LTH y Gonher cuentan con garantía oficial del fabricante. La duración
+                            varía según el modelo, desde 12 hasta 48 meses de garantía.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item animate-on-scroll delay-400">
+                    <button class="faq-item__question">
+                        ¿Dan descuento por mi batería usada?
+                        <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>¡Sí! Contamos con un programa de reciclaje. Al entregar tu batería usada, recibes un
+                            descuento adicional en tu compra nueva y contribuyes al cuidado del medio ambiente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       Blog Section
+       ======================================== -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="blog__header">
+                <div>
+                    <span class="blog__subtitle">Nuestro Blog</span>
+                    <h2 class="blog__title">Consejos y Novedades</h2>
+                </div>
+                <a href="#" class="btn btn--outline">Ver Todos los Artículos</a>
+            </div>
+
+            <div class="blog__grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card animate-on-scroll">
+                    <div class="blog-card__image">
+                        <img src="assets/images/battery-products.png" alt="Duración de baterías automotrices">
+                    </div>
+                    <div class="blog-card__content">
+                        <span class="blog-card__category">Mantenimiento</span>
+                        <h3 class="blog-card__title">
+                            <a href="#">¿Cuánto dura una batería automotriz? Señales de reemplazo</a>
+                        </h3>
+                        <p class="blog-card__excerpt">
+                            Aprende a identificar cuándo es momento de cambiar tu batería y cómo prolongar su vida útil.
+                        </p>
+                        <div class="blog-card__meta">
+                            <span>15 de Enero, 2026</span>
+                            <span>•</span>
+                            <span>5 min de lectura</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card animate-on-scroll delay-100">
+                    <div class="blog-card__image">
+                        <img src="assets/images/technician.png" alt="Baterías en climas extremos">
+                    </div>
+                    <div class="blog-card__content">
+                        <span class="blog-card__category">Consejos</span>
+                        <h3 class="blog-card__title">
+                            <a href="#">Baterías en invierno o verano: Impacto del clima</a>
+                        </h3>
+                        <p class="blog-card__excerpt">
+                            Descubre cómo las temperaturas extremas afectan tu batería y qué hacer para protegerla.
+                        </p>
+                        <div class="blog-card__meta">
+                            <span>10 de Enero, 2026</span>
+                            <span>•</span>
+                            <span>4 min de lectura</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card animate-on-scroll delay-200">
+                    <div class="blog-card__image">
+                        <img src="assets/images/hero-banner.png" alt="Instalación de batería">
+                    </div>
+                    <div class="blog-card__content">
+                        <span class="blog-card__category">Tutoriales</span>
+                        <h3 class="blog-card__title">
+                            <a href="#">Cómo instalar una batería sin perder ajustes - Guía paso a paso</a>
+                        </h3>
+                        <p class="blog-card__excerpt">
+                            Tutorial completo para cambiar tu batería sin perder la configuración de tu vehículo.
+                        </p>
+                        <div class="blog-card__meta">
+                            <span>5 de Enero, 2026</span>
+                            <span>•</span>
+                            <span>7 min de lectura</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       Contact Section
+       ======================================== -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="contact__grid">
+                <div class="contact__info animate-on-scroll">
+                    <span class="contact__subtitle">Contáctanos</span>
+                    <h2 class="contact__title">¿Necesitas una Batería?</h2>
+                    <p class="contact__description">
+                        Estamos listos para atenderte. Contáctanos por cualquier medio y recibe asesoría personalizada
+                        de nuestros expertos.
+                    </p>
+
+                    <div class="contact__methods">
+                        <div class="contact__method">
+                            <div class="contact__method-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="contact__method-title">WhatsApp</h4>
+                                <p class="contact__method-value">55 1234 5678</p>
+                            </div>
+                        </div>
+
+                        <div class="contact__method">
+                            <div class="contact__method-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="contact__method-title">Teléfono</h4>
+                                <p class="contact__method-value">55 1234 5678</p>
+                            </div>
+                        </div>
+
+                        <div class="contact__method">
+                            <div class="contact__method-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="contact__method-title">Ubicación</h4>
+                                <p class="contact__method-value">Ciudad de México y Zona Metropolitana</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__form animate-on-scroll delay-200">
+                    <form id="contactForm">
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label class="form__label" for="nombre">Nombre completo</label>
+                                <input type="text" id="nombre" name="nombre" class="form__input" placeholder="Tu nombre"
+                                    required>
+                            </div>
+                            <div class="form__group">
+                                <label class="form__label" for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" class="form__input"
+                                    placeholder="55 1234 5678" required>
+                            </div>
+                        </div>
+
+                        <div class="form__group">
+                            <label class="form__label" for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" class="form__input" placeholder="tu@correo.com">
+                        </div>
+
+                        <div class="form__group">
+                            <label class="form__label" for="vehiculo">Tipo de vehículo</label>
+                            <select id="vehiculo" name="vehiculo" class="form__select">
+                                <option value="">Selecciona una opción</option>
+                                <option value="auto">Automóvil</option>
+                                <option value="moto">Motocicleta</option>
+                                <option value="camion">Camión / Vehículo de carga</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form__group">
+                            <label class="form__label" for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" class="form__textarea"
+                                placeholder="Cuéntanos sobre tu vehículo (marca, modelo, año) y qué necesitas..."
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn--primary btn--lg" style="width: 100%;">
+                            Enviar Mensaje
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13" />
+                                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       Footer
+       ======================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <img src="assets/images/logo.jpg" alt="ENERGY ANG Logo">
+                    </div>
+                    <p class="footer__description">
+                        Somos especialistas en acumuladores automotrices para todo tipo de vehículo. Calidad, servicio y
+                        confianza en cada batería.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/525512345678" class="footer__social-link" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__column-title">Enlaces</h4>
+                    <ul class="footer__links">
+                        <li><a href="#inicio" class="footer__link">Inicio</a></li>
+                        <li><a href="#productos" class="footer__link">Productos</a></li>
+                        <li><a href="#servicios" class="footer__link">Servicios</a></li>
+                        <li><a href="#nosotros" class="footer__link">Nosotros</a></li>
+                        <li><a href="#blog" class="footer__link">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__column-title">Servicios</h4>
+                    <ul class="footer__links">
+                        <li><a href="#servicios" class="footer__link">Instalación gratuita</a></li>
+                        <li><a href="#servicios" class="footer__link">Diagnóstico de batería</a></li>
+                        <li><a href="#servicios" class="footer__link">Envío express</a></li>
+                        <li><a href="#servicios" class="footer__link">Reciclaje de baterías</a></li>
+                        <li><a href="#servicios" class="footer__link">Asesoría técnica</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__column-title">Contacto</h4>
+                    <div class="footer__contact-item">
+                        <svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+                        </svg>
+                        <span class="footer__contact-text">55 1234 5678</span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                        <span class="footer__contact-text">contacto@energyang.com</span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <span class="footer__contact-text">Ciudad de México y Zona Metropolitana</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    © 2026 ENERGY ANG. Todos los derechos reservados.
+                </p>
+                <div class="footer__legal">
+                    <a href="#" class="footer__legal-link">Aviso de Privacidad</a>
+                    <a href="#" class="footer__legal-link">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========================================
+       WhatsApp Floating Button
+       ======================================== -->
+    <a href="https://wa.me/525512345678?text=Hola,%20me%20interesa%20información%20sobre%20baterías"
+        class="whatsapp-btn" target="_blank" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <!-- ========================================
+       JavaScript
+       ======================================== -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
