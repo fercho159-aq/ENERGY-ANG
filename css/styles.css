@@ -472,6 +472,7 @@ img {
     height: auto;
     /* Optional: Add a subtle drop shadow or effect if needed */
     /* filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3)); */
+    border-radius: var(--radius-2xl);
 }
 
 @keyframes fadeInRight {
