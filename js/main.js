@@ -346,9 +346,9 @@ document.head.appendChild(style);
 // Console Welcome Message
 // ========================================
 
-console.log('%cENERGY ANG', 'font-size: 24px; font-weight: bold; color: #0B1D3A; font-family: Georgia, serif;');
-console.log('%cEspecialistas en Baterías Automotrices', 'font-size: 14px; color: #C49A2A;');
-console.log('%c¿Necesitas ayuda? Contáctanos por WhatsApp', 'font-size: 12px; color: #64748B;');
+console.log('%cENERGY ANG', 'font-size: 24px; font-weight: bold; color: #0E1B33; font-family: "Syne", sans-serif;');
+console.log('%cEspecialistas en Baterías Automotrices', 'font-size: 14px; color: #F7941D;');
+console.log('%c¿Necesitas ayuda? Contáctanos por WhatsApp', 'font-size: 12px; color: #5E6778;');
 
 // ========================================
 // Initialize on DOM Ready
