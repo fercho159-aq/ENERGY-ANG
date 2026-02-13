@@ -452,7 +452,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--space-12);
-    align-items: center;
+    align-items: stretch;
     position: relative;
     z-index: 3;
 }
@@ -465,13 +465,15 @@ img {
     position: relative;
     z-index: 2;
     animation: fadeInRight 1s ease-out;
+    height: 100%;
+    min-height: 550px;
+    display: flex;
 }
 
 .hero__image img {
     width: 100%;
-    height: auto;
-    /* Optional: Add a subtle drop shadow or effect if needed */
-    /* filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3)); */
+    height: 100%;
+    object-fit: cover;
     border-radius: var(--radius-2xl);
 }
 
