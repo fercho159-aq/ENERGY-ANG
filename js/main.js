@@ -194,7 +194,7 @@ if (contactForm) {
       </svg>
       ¡Mensaje Enviado!
     `;
-    submitBtn.style.background = 'linear-gradient(135deg, #10B981 0%, #059669 100%)';
+    submitBtn.style.background = '#166534';
     
     // Reset form after 3 seconds
     setTimeout(() => {
@@ -346,9 +346,9 @@ document.head.appendChild(style);
 // Console Welcome Message
 // ========================================
 
-console.log('%c🔋 ENERGY ANG', 'font-size: 24px; font-weight: bold; color: #0066CC;');
-console.log('%cEspecialistas en Baterías Automotrices', 'font-size: 14px; color: #FF6B00;');
-console.log('%c¿Necesitas ayuda? Contáctanos por WhatsApp', 'font-size: 12px; color: #666;');
+console.log('%cENERGY ANG', 'font-size: 24px; font-weight: bold; color: #0B1D3A; font-family: Georgia, serif;');
+console.log('%cEspecialistas en Baterías Automotrices', 'font-size: 14px; color: #C49A2A;');
+console.log('%c¿Necesitas ayuda? Contáctanos por WhatsApp', 'font-size: 12px; color: #64748B;');
 
 // ========================================
 // Initialize on DOM Ready
